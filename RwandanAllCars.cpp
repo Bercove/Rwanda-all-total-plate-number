@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	cout <<"--------All Rwandan Cars---------" <<endl;
+	cout <<"--------All Rwandan Cars Plate Numbers---------" <<endl;
 	cout <<"RAA 001 A" <<endl;
 	cout <<"RZZ 999 Z" <<endl;
 	cout <<'IT 001 A' <<endl;
