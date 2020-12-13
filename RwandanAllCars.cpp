@@ -6,14 +6,14 @@ int main()
 	cout <<"--------All Rwandan Cars Plate Numbers---------" <<endl;
 	cout <<"RAA 001 A" <<endl;
 	cout <<"RZZ 999 Z" <<endl;
-	cout <<'IT 001 A' <<endl;
-	cout <<'IT 999 Z' <<endl;
-	cout <<'GP 001 A' <<endl;
-	cout <<'GP 999 Z' <<endl;
-	cout <<'RDF 001 A' <<endl;
-	cout <<'RDF 999 Z' <<endl;
-	cout <<'RNP 001 A' <<endl;
-	cout <<'RNP 999 Z' <<endl;
+	cout <<"IT 001 A" <<endl;
+	cout <<"IT 999 Z" <<endl;
+	cout <<"GP 001 A" <<endl;
+	cout <<"GP 999 Z" <<endl;
+	cout <<"RDF 001 A" <<endl;
+	cout <<"RDF 999 Z" <<endl;
+	cout <<"RNP 001 A" <<endl;
+	cout <<"RNP 999 Z" <<endl;
 
 	int count = 0;
 
@@ -35,10 +35,10 @@ int main()
 				for(int number = 1; number <= 999; number++){
 					number = number;
 					count += 1;
-					cout <<count <<"\t\t" <<"R" <<letter1 <<letter2 <<' ';
+					cout <<count <<"\t\t" <<"R" <<letter1 <<letter2 <<" ";
 					cout.fill('0');    
 					cout.width(3);
-					cout <<number <<' ' <<letter3 <<endl;
+					cout <<number <<" " <<letter3 <<endl;
 				}
 			}
 		}
@@ -52,10 +52,10 @@ int main()
 		for(int number = 1; number <= 999; number++){
 			number = number;
 			count += 1;
-			cout <<count <<"\t\t" <<"IT" <<' ';
+			cout <<count <<"\t\t" <<"IT" <<" ";
 			cout.fill('0');    
 			cout.width(3);
-			cout <<number <<' ' <<letter1 <<endl;
+			cout <<number <<" " <<letter1 <<endl;
 		}
 	}
 
@@ -67,10 +67,10 @@ int main()
 		for(int number = 1; number <= 999; number++){
 			number = number;
 			count += 1;
-			cout <<count <<"\t\t" <<"GP" <<' ';
+			cout <<count <<"\t\t" <<"GP" <<" ";
 			cout.fill('0');    
 			cout.width(3);
-			cout <<number <<' ' <<letter1 <<endl;
+			cout <<number <<" " <<letter1 <<endl;
 		}
 	}
 
@@ -82,10 +82,10 @@ int main()
 		for(int number = 1; number <= 999; number++){
 			number = number;
 			count += 1;
-			cout <<count <<"\t\t" <<"RDF" <<' ';
+			cout <<count <<"\t\t" <<"RDF" <<" ";
 			cout.fill('0');    
 			cout.width(3);
-			cout <<number <<' ' <<letter1 <<endl;
+			cout <<number <<" " <<letter1 <<endl;
 		}
 	}
 
@@ -97,10 +97,10 @@ int main()
 		for(int number = 1; number <= 999; number++){
 			number = number;
 			count += 1;
-			cout <<count <<"\t\t" <<"RNP" <<' ';
+			cout <<count <<"\t\t" <<"RNP" <<" ";
 			cout.fill('0');    
 			cout.width(3);
-			cout <<number <<' ' <<letter1 <<endl;
+			cout <<number <<" " <<letter1 <<endl;
 		}
 	}
 
